@@ -10,6 +10,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Code_of_MechineLearing_Pratice$tree.coverage" NAME="tree Coverage Results" MODIFIED="1561635923973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3决策树" />
+    <SUITE FILE_PATH="coverage/Code_of_MechineLearing_Pratice$treePlotter.coverage" NAME="treePlotter Coverage Results" MODIFIED="1561636084333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3决策树" />
     <SUITE FILE_PATH="coverage/Code_of_MechineLearing_Pratice$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1561430036360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch2K近邻" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -17,24 +19,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kNN.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch2K近邻/kNN.py">
+      <file leaf-file-name="tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch3决策树/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="94">
+              <caret line="133" column="31" lean-forward="false" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
               <folding>
-                <element signature="e#14#46#0" expanded="true" />
-                <element signature="e#75#82#0" expanded="false" />
-                <element signature="e#246#1337#0" expanded="false" />
-                <element signature="e#1388#1533#0" expanded="false" />
-                <element signature="e#1648#2261#0" expanded="false" />
-                <element signature="e#2348#2820#0" expanded="false" />
-                <element signature="e#2897#3653#0" expanded="false" />
-                <element signature="e#3707#4386#0" expanded="false" />
-                <element signature="e#4499#4791#0" expanded="false" />
-                <element signature="e#4793#4798#0" expanded="false" />
-                <element signature="e#5116#6502#0" expanded="false" />
-                <element signature="e#5369#5762#0" expanded="false" />
+                <element signature="e#14#34#0" expanded="true" />
+                <element signature="e#860#1451#0" expanded="false" />
+                <element signature="e#1578#1900#0" expanded="false" />
+                <element signature="e#2076#2991#0" expanded="false" />
+                <element signature="e#3073#3426#0" expanded="false" />
+                <element signature="e#5248#5386#0" expanded="false" />
+                <element signature="e#5439#5506#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="treePlotter.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch3决策树/treePlotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="101" column="31" lean-forward="false" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+              <folding>
+                <element signature="e#34#49#0" expanded="true" />
+                <element signature="e#414#978#0" expanded="false" />
+                <element signature="e#1017#1490#0" expanded="false" />
+                <element signature="e#1628#1836#0" expanded="false" />
+                <element signature="e#2178#2361#0" expanded="false" />
+                <element signature="e#2429#3535#0" expanded="false" />
+                <element signature="e#3577#4050#0" expanded="false" />
+                <element signature="e#4104#4391#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -60,6 +76,8 @@
         <option value="$PROJECT_DIR$/ch15/mrMeanMapper.py" />
         <option value="$PROJECT_DIR$/ch15/mrMeanReducer.py" />
         <option value="$PROJECT_DIR$/ch2K近邻/kNN.py" />
+        <option value="$PROJECT_DIR$/ch3决策树/tree.py" />
+        <option value="$PROJECT_DIR$/ch3决策树/treePlotter.py" />
       </list>
     </option>
   </component>
@@ -70,8 +88,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1739" />
-    <option name="y" value="320" />
+    <option name="x" value="1912" />
+    <option name="y" value="201" />
     <option name="width" value="1309" />
     <option name="height" value="744" />
   </component>
@@ -104,6 +122,11 @@
               <item name="Code of MechineLearing Pratice" type="462c0819:PsiDirectoryNode" />
               <item name="ch2K近邻" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Code of MechineLearing Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code of MechineLearing Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="ch3决策树" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kNN">
+  <component name="RunManager" selected="Python.treePlotter">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,9 +303,52 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3决策树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML-in-Action-Code-and-Note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3决策树/tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="treePlotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3决策树" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML-in-Action-Code-and-Note" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3决策树/treePlotter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.kNN" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tree" />
+      <item index="2" class="java.lang.String" itemvalue="Python.treePlotter" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.kNN" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.treePlotter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tree" />
+        <item index="2" class="java.lang.String" itemvalue="Python.kNN" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +379,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="201" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21558245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -321,7 +386,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21612903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3419355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -370,7 +435,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -380,7 +445,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#46#0" expanded="true" />
+            <element signature="e#14#46#0" expanded="false" />
             <element signature="e#75#82#0" expanded="false" />
             <element signature="e#246#1337#0" expanded="false" />
             <element signature="e#1388#1533#0" expanded="false" />
@@ -389,9 +454,9 @@
             <element signature="e#2897#3653#0" expanded="false" />
             <element signature="e#3707#4386#0" expanded="false" />
             <element signature="e#4499#4791#0" expanded="false" />
-            <element signature="e#4793#4798#0" expanded="false" />
-            <element signature="e#5116#6502#0" expanded="false" />
-            <element signature="e#5369#5762#0" expanded="false" />
+            <element signature="e#4793#4803#0" expanded="false" />
+            <element signature="e#5121#6507#0" expanded="false" />
+            <element signature="e#5374#5767#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -421,10 +486,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch2K近邻/kNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="125" column="66" lean-forward="true" selection-start-line="125" selection-start-column="66" selection-end-line="125" selection-end-column="66" />
           <folding>
-            <element signature="e#14#46#0" expanded="true" />
             <element signature="e#75#82#0" expanded="false" />
             <element signature="e#246#1337#0" expanded="false" />
             <element signature="e#1388#1533#0" expanded="false" />
@@ -433,9 +497,42 @@
             <element signature="e#2897#3653#0" expanded="false" />
             <element signature="e#3707#4386#0" expanded="false" />
             <element signature="e#4499#4791#0" expanded="false" />
-            <element signature="e#4793#4798#0" expanded="false" />
-            <element signature="e#5116#6502#0" expanded="false" />
-            <element signature="e#5369#5762#0" expanded="false" />
+            <element signature="e#4793#4803#0" expanded="false" />
+            <element signature="e#5121#6507#0" expanded="false" />
+            <element signature="e#5374#5767#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3决策树/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="133" column="31" lean-forward="false" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#34#0" expanded="true" />
+            <element signature="e#860#1451#0" expanded="false" />
+            <element signature="e#1578#1900#0" expanded="false" />
+            <element signature="e#2076#2991#0" expanded="false" />
+            <element signature="e#3073#3426#0" expanded="false" />
+            <element signature="e#5248#5386#0" expanded="false" />
+            <element signature="e#5439#5506#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3决策树/treePlotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="101" column="31" lean-forward="false" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <folding>
+            <element signature="e#34#49#0" expanded="true" />
+            <element signature="e#414#978#0" expanded="false" />
+            <element signature="e#1017#1490#0" expanded="false" />
+            <element signature="e#1628#1836#0" expanded="false" />
+            <element signature="e#2178#2361#0" expanded="false" />
+            <element signature="e#2429#3535#0" expanded="false" />
+            <element signature="e#3577#4050#0" expanded="false" />
+            <element signature="e#4104#4391#0" expanded="false" />
           </folding>
         </state>
       </provider>
