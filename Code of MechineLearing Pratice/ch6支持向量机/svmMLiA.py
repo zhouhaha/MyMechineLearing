@@ -4,6 +4,7 @@ from time import sleep
 import math
 import scipy.io as sio
 
+#加载数据和数据标签
 def loadDataSet(filename):
     dataMat=[];labelMat=[]
     fr=open(filename)
