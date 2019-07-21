@@ -18,29 +18,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch6支持向量机/svmMLiA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="101" selection-start-line="101" selection-end-line="106" />
-              <folding>
-                <element signature="e#14#33#0" expanded="true" />
-                <element signature="e#135#385#0" />
-                <element signature="e#571#632#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch2K近邻/kNN.py">
+        <entry file="file://$PROJECT_DIR$/ch5Logistic/logRegres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
-              <folding>
-                <element signature="e#14#46#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-507" />
           </provider>
         </entry>
       </file>
@@ -77,7 +58,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1385" />
@@ -89,6 +70,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,14 +82,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,10 +225,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.kNN" />
-      <item itemvalue="Python.tree" />
-      <item itemvalue="Python.treePlotter" />
       <item itemvalue="Python._jb_nosetest_runner" />
+      <item itemvalue="Python.kNN" />
+      <item itemvalue="Python.treePlotter" />
+      <item itemvalue="Python.tree" />
       <item itemvalue="Python tests.Nosetests for bayes.testingNB" />
     </list>
     <recent_temporary>
@@ -300,7 +281,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2291942" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -396,18 +377,6 @@
     <entry file="file://$PROJECT_DIR$/ch4朴素贝叶斯/email/ham/1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch6支持向量机/svmMLiA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="101" selection-start-line="101" selection-end-line="106" />
-          <folding>
-            <element signature="e#14#33#0" expanded="true" />
-            <element signature="e#135#385#0" />
-            <element signature="e#571#632#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch4朴素贝叶斯/bayes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -423,6 +392,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch6支持向量机/svmMLiA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="101" selection-start-line="101" selection-end-line="106" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+            <element signature="e#135#385#0" />
+            <element signature="e#571#632#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch2K近邻/kNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -431,6 +412,11 @@
             <element signature="e#14#46#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5Logistic/logRegres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507" />
       </provider>
     </entry>
   </component>
