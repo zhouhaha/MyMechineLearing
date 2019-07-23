@@ -21,7 +21,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch5Logistic/logRegres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-507" />
+            <state relative-caret-position="509">
+              <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+              <folding>
+                <element signature="e#388#412#0" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -49,6 +54,8 @@
         <option value="$PROJECT_DIR$/ch3决策树/treePlotter.py" />
         <option value="$PROJECT_DIR$/ch6支持向量机/svmMLiA.py" />
         <option value="$PROJECT_DIR$/ch4朴素贝叶斯/bayes.py" />
+        <option value="$PROJECT_DIR$/../../../../../zhouh/Documents/GitHub/MyMechineLearing/Code of MechineLearing Pratice/ch5Logistic回归/logRegres.py" />
+        <option value="$PROJECT_DIR$/ch5Logistic/logRegres.py" />
       </list>
     </option>
   </component>
@@ -58,7 +65,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1385" />
@@ -102,7 +109,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for bayes.testingNB">
+  <component name="RunManager" selected="Python.logRegres">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logRegres (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-in-Action-Code-and-Note" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,12 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch2K近邻" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../zhouh/Documents/GitHub/MyMechineLearing/Code of MechineLearing Pratice/ch5Logistic回归" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch2K近邻/kNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../zhouh/Documents/GitHub/MyMechineLearing/Code of MechineLearing Pratice/ch5Logistic回归/logRegres.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-in-Action-Code-and-Note" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,12 +179,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3决策树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5Logistic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3决策树/tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5Logistic/logRegres.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,19 +230,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python._jb_nosetest_runner" />
-      <item itemvalue="Python.kNN" />
       <item itemvalue="Python.treePlotter" />
-      <item itemvalue="Python.tree" />
+      <item itemvalue="Python._jb_nosetest_runner" />
       <item itemvalue="Python tests.Nosetests for bayes.testingNB" />
+      <item itemvalue="Python.logRegres" />
+      <item itemvalue="Python.logRegres (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logRegres" />
+        <item itemvalue="Python.logRegres (1)" />
         <item itemvalue="Python tests.Nosetests for bayes.testingNB" />
         <item itemvalue="Python._jb_nosetest_runner" />
         <item itemvalue="Python.treePlotter" />
-        <item itemvalue="Python.tree" />
-        <item itemvalue="Python.kNN" />
       </list>
     </recent_temporary>
   </component>
@@ -281,20 +286,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2291942" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34135976" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22096318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -348,7 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="294" column="29" lean-forward="true" selection-start-line="294" selection-start-column="29" selection-end-line="294" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -414,9 +418,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch5Logistic/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5Logistic/horseColicTraining.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch5Logistic/horseColicTest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/matplotlib/axes/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../zhouh/Documents/GitHub/MyMechineLearing/Code of MechineLearing Pratice/ch5Logistic回归/logRegres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="112" column="20" lean-forward="true" selection-start-line="89" selection-start-column="4" selection-end-line="112" selection-end-column="20" />
+          <folding>
+            <element signature="e#2760#2844#0" />
+            <element signature="e#3786#3968#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch5Logistic/logRegres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507" />
+        <state relative-caret-position="509">
+          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+          <folding>
+            <element signature="e#388#412#0" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
