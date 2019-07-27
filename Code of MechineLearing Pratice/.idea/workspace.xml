@@ -19,12 +19,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch5Logistic/logRegres.py">
+        <entry file="file://$PROJECT_DIR$/ch6_SVM/svmMLiA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="269" column="21" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="21" />
               <folding>
-                <element signature="e#388#412#0" />
+                <element signature="e#14#33#0" expanded="true" />
+                <element signature="e#135#385#0" />
+                <element signature="e#438#524#0" />
+                <element signature="e#571#632#0" />
+                <element signature="e#733#3429#0" />
+                <element signature="e#917#3409#0" />
+                <element signature="e#3529#4044#0" />
+                <element signature="e#4203#4595#0" />
+                <element signature="e#4625#4739#0" />
+                <element signature="e#4812#5371#0" />
+                <element signature="e#5460#5504#0" />
+                <element signature="e#5529#7203#0" />
+                <element signature="e#7313#8387#0" />
+                <element signature="e#8447#8634#0" />
+                <element signature="e#9258#10506#0" />
+                <element signature="e#9931#10140#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch2_KNN/kNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+              <folding>
+                <element signature="e#246#1337#0" />
+                <element signature="e#1388#1533#0" />
+                <element signature="e#1648#2261#0" />
+                <element signature="e#2348#2820#0" />
+                <element signature="e#2897#3653#0" />
+                <element signature="e#3707#4386#0" />
               </folding>
             </state>
           </provider>
@@ -56,6 +88,8 @@
         <option value="$PROJECT_DIR$/ch4朴素贝叶斯/bayes.py" />
         <option value="$PROJECT_DIR$/../../../../../zhouh/Documents/GitHub/MyMechineLearing/Code of MechineLearing Pratice/ch5Logistic回归/logRegres.py" />
         <option value="$PROJECT_DIR$/ch5Logistic/logRegres.py" />
+        <option value="$PROJECT_DIR$/ch2_KNN/kNN.py" />
+        <option value="$PROJECT_DIR$/ch6_SVM/svmMLiA.py" />
       </list>
     </option>
   </component>
@@ -65,7 +99,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1385" />
@@ -77,7 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,17 +118,28 @@
               <item name="Code of MechineLearing Pratice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Code of MechineLearing Pratice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Code of MechineLearing Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code of MechineLearing Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2_KNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Code of MechineLearing Pratice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Code of MechineLearing Pratice" type="462c0819:PsiDirectoryNode" />
+              <item name="ch6_SVM" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.logRegres">
+  <component name="RunManager" selected="Python tests.Nosetests for svmMLiA.testDigits">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +173,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="_jb_nosetest_runner" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-in-Action-Code-and-Note" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,53 +181,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_HOME_DIR$/helpers/pycharm" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_nosetest_runner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logRegres (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML-in-Action-Code-and-Note" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../../zhouh/Documents/GitHub/MyMechineLearing/Code of MechineLearing Pratice/ch5Logistic回归" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../../zhouh/Documents/GitHub/MyMechineLearing/Code of MechineLearing Pratice/ch5Logistic回归/logRegres.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ML-in-Action-Code-and-Note" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch5Logistic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch2_KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch5Logistic/logRegres.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch2_KNN/kNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="treePlotter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="svmMLiA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ML-in-Action-Code-and-Note" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,12 +202,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3决策树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6_SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3决策树/treePlotter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch6_SVM/svmMLiA.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,35 +215,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Nosetests for bayes.testingNB" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for svmMLiA.testDigits" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <module name="ML-in-Action-Code-and-Note" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch4朴素贝叶斯" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6_SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;bayes.testingNB&quot;" />
+      <option name="_new_target" value="&quot;svmMLiA.testDigits&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Nosetests for svmMLiA.testRbf" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="ML-in-Action-Code-and-Note" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6_SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;svmMLiA.testRbf&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Nosetests in svmMLiA.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="ML-in-Action-Code-and-Note" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch6_SVM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/ch6_SVM/svmMLiA.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.treePlotter" />
-      <item itemvalue="Python._jb_nosetest_runner" />
-      <item itemvalue="Python tests.Nosetests for bayes.testingNB" />
-      <item itemvalue="Python.logRegres" />
-      <item itemvalue="Python.logRegres (1)" />
+      <item itemvalue="Python tests.Nosetests for svmMLiA.testRbf" />
+      <item itemvalue="Python tests.Nosetests for svmMLiA.testDigits" />
+      <item itemvalue="Python tests.Nosetests in svmMLiA.py" />
+      <item itemvalue="Python.svmMLiA" />
+      <item itemvalue="Python.kNN" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.logRegres" />
-        <item itemvalue="Python.logRegres (1)" />
-        <item itemvalue="Python tests.Nosetests for bayes.testingNB" />
-        <item itemvalue="Python._jb_nosetest_runner" />
-        <item itemvalue="Python.treePlotter" />
+        <item itemvalue="Python tests.Nosetests for svmMLiA.testDigits" />
+        <item itemvalue="Python tests.Nosetests in svmMLiA.py" />
+        <item itemvalue="Python.kNN" />
+        <item itemvalue="Python tests.Nosetests for svmMLiA.testRbf" />
+        <item itemvalue="Python.svmMLiA" />
       </list>
     </recent_temporary>
   </component>
@@ -260,20 +291,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_bayes_testingNB - 2019.07.20 at 14h 27m 29s.xml">
-      <configuration name="Nosetests for bayes.testingNB" configurationId="tests" />
+    <history-entry file="Nosetests_for_svmMLiA_testDigits - 2019.07.27 at 15h 33m 02s.xml">
+      <configuration name="Nosetests for svmMLiA.testDigits" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_bayes_testingNB - 2019.07.20 at 14h 28m 12s.xml">
-      <configuration name="Nosetests for bayes.testingNB" configurationId="tests" />
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 34m 03s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_bayes_testingNB - 2019.07.20 at 14h 48m 40s.xml">
-      <configuration name="Nosetests for bayes.testingNB" configurationId="tests" />
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 34m 47s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_bayes_testingNB - 2019.07.20 at 14h 49m 55s.xml">
-      <configuration name="Nosetests for bayes.testingNB" configurationId="tests" />
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 35m 49s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_bayes_testingNB - 2019.07.20 at 14h 50m 01s.xml">
-      <configuration name="Nosetests for bayes.testingNB" configurationId="tests" />
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 36m 19s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 37m 42s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 41m 10s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 42m 02s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_svmMLiA_py - 2019.07.27 at 15h 46m 27s.xml">
+      <configuration name="Nosetests in svmMLiA.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_svmMLiA_testDigits - 2019.07.27 at 15h 46m 55s.xml">
+      <configuration name="Nosetests for svmMLiA.testDigits" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -287,13 +333,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2291942" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16644649" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22096318" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25637394" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,20 +403,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch3决策树/treePlotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch3决策树/tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3决策树/treePlotter.py" />
+    <entry file="file://$PROJECT_DIR$/ch3决策树/tree.py" />
     <entry file="file://$PROJECT_DIR$/../../numpy-mll/hmm/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -378,46 +413,10 @@
         <state relative-caret-position="-10472" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch4朴素贝叶斯/email/ham/1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch4朴素贝叶斯/bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="86" column="69" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
-          <folding>
-            <element signature="e#67#623#0" />
-            <element signature="e#708#852#0" />
-            <element signature="e#977#1280#0" />
-            <element signature="e#1343#1613#0" />
-            <element signature="e#1798#2867#0" />
-            <element signature="e#3002#3210#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch6支持向量机/svmMLiA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="101" selection-start-line="101" selection-end-line="106" />
-          <folding>
-            <element signature="e#14#33#0" expanded="true" />
-            <element signature="e#135#385#0" />
-            <element signature="e#571#632#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2K近邻/kNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#14#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4朴素贝叶斯/email/ham/1.txt" />
+    <entry file="file://$PROJECT_DIR$/ch4朴素贝叶斯/bayes.py" />
+    <entry file="file://$PROJECT_DIR$/ch6支持向量机/svmMLiA.py" />
+    <entry file="file://$PROJECT_DIR$/ch2K近邻/kNN.py" />
     <entry file="file://$PROJECT_DIR$/ch5Logistic/testSet.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -459,9 +458,83 @@
     <entry file="file://$PROJECT_DIR$/ch5Logistic/logRegres.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
-          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+          <caret line="144" column="20" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6_SVM/testDigits/1_0.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6_SVM/testSetRBF2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6_SVM/testSetRBF.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6_SVM/testSet.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6_SVM/testDigits/1_5.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/site-packages/nose/failure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2_KNN/kNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
           <folding>
-            <element signature="e#388#412#0" />
+            <element signature="e#246#1337#0" />
+            <element signature="e#1388#1533#0" />
+            <element signature="e#1648#2261#0" />
+            <element signature="e#2348#2820#0" />
+            <element signature="e#2897#3653#0" />
+            <element signature="e#3707#4386#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch6_SVM/svmMLiA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="269" column="21" selection-start-line="269" selection-start-column="13" selection-end-line="269" selection-end-column="21" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+            <element signature="e#135#385#0" />
+            <element signature="e#438#524#0" />
+            <element signature="e#571#632#0" />
+            <element signature="e#733#3429#0" />
+            <element signature="e#917#3409#0" />
+            <element signature="e#3529#4044#0" />
+            <element signature="e#4203#4595#0" />
+            <element signature="e#4625#4739#0" />
+            <element signature="e#4812#5371#0" />
+            <element signature="e#5460#5504#0" />
+            <element signature="e#5529#7203#0" />
+            <element signature="e#7313#8387#0" />
+            <element signature="e#8447#8634#0" />
+            <element signature="e#9258#10506#0" />
+            <element signature="e#9931#10140#0" />
           </folding>
         </state>
       </provider>
