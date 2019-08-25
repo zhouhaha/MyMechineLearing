@@ -7,8 +7,9 @@ def loadSimpData():
         [ 2. ,  1.1],
         [ 1.3,  1. ],
         [ 1. ,  1. ],
-        [ 2. ,  1. ]])
+        [ 1.5 ,  1.6 ]])
     classLabels = [1.0, 1.0, -1.0, -1.0, 1.0]
+    print(datMat)
     return datMat,classLabels
 
 #对数据进行分类
@@ -130,7 +131,9 @@ def plotROC(predStrengths, classLabels):
     print ("the Area Under the Curve is: ",ySum*xStep)
 
 
-
+if __name__ =="__main__":
+    datMat,classLabels = loadSimpData()
+    adaBoostTrainDS(datMat, classLabels, numIt=40)
 
 
 
