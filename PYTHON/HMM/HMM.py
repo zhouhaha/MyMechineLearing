@@ -1,5 +1,6 @@
 import numpy as np
 import csv
+import math
 
 class HMM(object):
     def __init__(self,N,M):
@@ -197,6 +198,7 @@ def triangle(length):
             Y.append(x)
         else:
             Y.append(6-x)
+    print(X,Y)
     return X,Y
 
 
