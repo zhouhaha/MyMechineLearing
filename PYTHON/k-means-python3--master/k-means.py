@@ -1,3 +1,5 @@
+# -*- coding:utf8 -*-
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -19,7 +21,7 @@ def randCent(dataSet,k):
         centroids[i,:] = dataSet[index,:]
     return centroids
 
-# k均值聚类
+# k均值聚类,返回的有两个：centroids为包含k个质心的矩阵，clusterAssment为一个行数等于样本个数，只有两列的矩阵
 def KMeans(dataSet,k):
 
     m = np.shape(dataSet)[0]  #行的数目
@@ -60,9 +62,9 @@ def KMeans(dataSet,k):
 
 def showCluster(dataSet,k,centroids,clusterAssment):
     m,n = dataSet.shape
-    if n != 2:
-        print("数据不是二维的")
-        return 1
+    # if n != 2:
+    #     print("数据不是二维的")
+    #     return 1
 
     mark = ['or', 'ob', 'og', 'ok', '^r', '+r', 'sr', 'dr', '<r', 'pr']
     if k > len(mark):
@@ -83,8 +85,9 @@ def showCluster(dataSet,k,centroids,clusterAssment):
 
 if __name__ == "__main__":
     dataSet = loadDataSet("test.txt")
-
-    k = 4
+    dataSet = np.array(dataSet)
+    print(dataSet)
+    k = 6
     centroids,clusterAssment = KMeans(dataSet,k)
 
     showCluster(dataSet,k,centroids,clusterAssment)
