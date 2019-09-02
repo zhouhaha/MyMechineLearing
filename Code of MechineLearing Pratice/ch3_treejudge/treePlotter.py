@@ -2,7 +2,7 @@
 #改文件功能为对决策树进行绘制，图形化
 import operator
 import matplotlib.pyplot as plt
-import tree
+from ch3_treejudge import tree
 #绘制属性图
 plt.rcParams['font.family'] = 'STSong'
 decisionNode = dict(boxstyle="sawtooth", fc="0.8")  #决策节点的属性。boxstyle为文本框的类型，sawtooth是锯齿形，fc是边框线粗细

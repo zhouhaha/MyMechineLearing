@@ -12,11 +12,11 @@ def loadDataSet(fileName):
         dataMat.append(fltLine)
     return dataMat
 
-#distance func
+#计算向量A和向量B的欧氏距离，即二范数
 def distEclud(vecA,vecB):
     return sqrt(sum(power(vecA - vecB, 2)))  # la.norm(vecA-vecB) 向量AB的欧式距离
 
-#init K points randomly
+#初始随机的k个质心
 def randCent(dataSet, k):
     n = shape(dataSet)[1]
     centroids = mat(zeros((k,n)))#create centroid mat
@@ -119,4 +119,7 @@ def clusterClubs(numClust=5):#参数：希望得到的簇数目
     ax1.scatter(myCentroids[:,0].flatten().A[0], myCentroids[:,1].flatten().A[0], marker='+', s=300)
     plt.show()
 
-
+if __name__ == '__main__':
+    dataSet = loadDataSet('test.txt')
+    print(dataSet)
+    kMeans(dataSet, 4, distMeas=distEclud, createCent=randCent)

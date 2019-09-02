@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from numpy import *
+import matplotlib.pyplot as plt
 
 def loadDataSet(fileName,delim='\t'):
     fr=open(fileName)
@@ -8,13 +9,14 @@ def loadDataSet(fileName,delim='\t'):
     datArr=[list(map(float,line)) for line in stringArr]
     return mat(datArr)
 
+#PCA降维方法，其中topNfeat是降维之后的包含的特征个数，即降维之后的维度，可以设置
 def pca(dataMat,topNfeat=9999999): #topNfeat为可选参数，记录特征值个数
     meanVals=mean(dataMat,axis=0) #求均值
     meanRemoved=dataMat-meanVals  #归一化数据
     covMat=cov(meanRemoved,rowvar=0)    #求协方差
     eigVals,eigVects=linalg.eig(mat(covMat)) #计算特征值和特征向量
     eigValInd=argsort(eigVals)               #对特征值进行排序，默认从小到大
-    eigValInd=eigValInd[:-(topNfeat+1):-1]   #逆序取得特征值最大的元素
+    eigValInd=eigValInd[:-(topNfeat+1):-1]   #对特征值矩阵进行逆序排列，获得从大到小的特征值排列，当topNfeat大于数组的长度时，不会对逆序有影响
     redEigVects=eigVects[:,eigValInd]        #用特征向量构成矩阵
     lowDDataMat=meanRemoved*redEigVects      #用归一化后的各个数据与特征矩阵相乘，映射到新的空间
     reconMat=(lowDDataMat*redEigVects.T)+meanVals #还原原始数据
@@ -23,12 +25,15 @@ def pca(dataMat,topNfeat=9999999): #topNfeat为可选参数，记录特征值个
 #将NaN替换成平均值
 def replaceNanWithMean():
     datMat=loadDataSet('secom.data',' ')
+    print(datMat)
     numFeat=shape(datMat)[1]
     for i in range(numFeat):
-        meanVal=mean(datMat[nonzero(~isnan(datMat[:,i].A))[0],i])
-        datMat[nonzero(isnan(datMat[:,i].A))[0],i]=meanVal
+        meanVal=mean(datMat[nonzero(~isnan(datMat[:,i].A))[0],i])#  计算非NaN的数据的平均值
+        datMat[nonzero(isnan(datMat[:,i].A))[0],i]=meanVal  #将NaN用所计算的平均值替代
     return datMat
 
+if __name__ =="__main__":
+    a = replaceNanWithMean()
 
 
 
