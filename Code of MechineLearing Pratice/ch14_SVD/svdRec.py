@@ -125,6 +125,5 @@ def imgCompress(numSV=3, thresh=0.8):
 
 if __name__ == '__main__':
     Data = loadExData2()
-    Data.astype(float)
     recommend(Data, 1, pearsSim, 8, standEst)
     # standEst(Data,5,pearsSim,3)
