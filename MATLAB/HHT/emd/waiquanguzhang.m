@@ -12,6 +12,11 @@ X=X130_FE_time(1:N);%装载 风扇计数端的内圈故障数据
 y=X';%信号幅值序列
 imf=emd(y);%经验模态分解                                     !!!
 %X=X130_BA_time(1:N);%装载 基础计数端的内圈故障数据
+[m,n] = size(imf);
+for i = 1:m
+a = corrcoef(imf(i,:),y);
+xg(i) = a(1,2);
+end
 Z=X130_FE_time(1:N)-imf(1,N)-imf(2,N)-imf(3,N);
 z=Z';%去噪
 k_in=kurtosis(y);%峭度系数，正常轴承为3左右
