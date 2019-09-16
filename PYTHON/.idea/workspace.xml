@@ -13,14 +13,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/k-means-python3--master/k-means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="494">
+              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#90#148#0" />
-                <element signature="e#183#225#0" />
-                <element signature="e#280#461#0" />
-                <element signature="e#499#1624#0" />
+                <element signature="e#23#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +61,11 @@
             <path>
               <item name="PYTHON" type="b2602c69:ProjectViewProjectNode" />
               <item name="PYTHON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PYTHON" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PYTHON" type="462c0819:PsiDirectoryNode" />
+              <item name="HMM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PYTHON" type="b2602c69:ProjectViewProjectNode" />
@@ -165,7 +166,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2266289" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14730878" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,14 +221,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/k-means-python3--master/k-means.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="494">
+          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#90#148#0" />
-            <element signature="e#183#225#0" />
-            <element signature="e#280#461#0" />
-            <element signature="e#499#1624#0" />
+            <element signature="e#23#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
