@@ -1,6 +1,13 @@
 function [P,mpIndex,Result] = kpcaFordata(X,c,threshold) %
+%%输入
 %load tsstdata  %所导入的数据
 %X = testdata(:,1:4)'; % X训练数据集，数据的行为特征个数，列为一个样本
+%c:一个可调的参数，建议设为2000
+%threshold：各特征值的累计贡献率的门槛，当大于该门槛时，跳出
+%%输出
+%P：主元所对应的特征向量（负荷向量）
+%mpIndex：记录主元所在特征值向量中的序号的矩阵
+%Result：最后输出的降维之后的数据矩阵
 %%将数据归一化，归一化为均值为0，方差为1
 [Xrow, Xcol] = size(X); % Xrow：样本个数 Xcol：样本属性个数
 Xc = mean(X); % 求原始数据的均值
