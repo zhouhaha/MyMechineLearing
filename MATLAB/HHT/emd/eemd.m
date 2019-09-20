@@ -3,9 +3,10 @@
 % This is an EMD/EEMD program
 %
 % INPUT:
-%       Y: Inputted data;1-d data only
-%       Nstd: ratio of the standard deviation of the added noise and that of Y;
-%       NE: Ensemble number for the EEMD
+%       Y: Inputted data;1-d data only输入的一维数据
+%       Nstd: ratio of the standard deviation of the added noise and that
+%       of Y;噪声信号与原信号的标准差之比
+%       NE: Ensemble number for the EEMD ：EEMD的集合数量
 % OUTPUT:
 %       A matrix of N*(m+1) matrix, where N is the length of the input
 %       data Y, and m=fix(log2(N))-1. Column 1 is the original data, columns 2, 3, ...
