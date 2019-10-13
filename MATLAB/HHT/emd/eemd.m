@@ -55,7 +55,7 @@ function allmode=eemd(Y,Nstd,NE)
 %part1.read data, find out standard deviation ,devide all data by std
 xsize=length(Y);
 dd=1:1:xsize;
-Ystd=std(Y);
+Ystd=std(Y); %  求Y的样本标准差
 Y=Y/Ystd;
 
 %part2.evaluate TNM as total IMF number,ssign 0 to TNM2 matrix
